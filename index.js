@@ -2,13 +2,11 @@ let nome = "Pilgs"
 let pontosDoHeroi = 5599
 let i = pontosDoHeroi
 
-for(  i ; i <= 7000 ; i+=13){
+for( i ; i <= 10100; i+=500){
   
- console.log(i)
- console.log("subiu de nivel ")
-}
-
-console.log("Pontos de experiência " + i)
+  console.log("subiu de nivel ")
+ 
+  console.log("Pontos de experiência " + i)
 
 if(i < 1000){
   console.log("o heroi " +nome+ " esta no nivel ferro")
@@ -24,7 +22,8 @@ if(i < 1000){
   console.log("o heroi " +nome+ " esta no nivel ascendente")
 } else if(i <= 10000){
   console.log("o heroi " +nome+ " esta no nivel imortal")
-} else if(i >= 10001){
-  console.log("o heroi " +nome+ " Esta Radiante")
+} else if(i > 10001){
+  console.log("o heroi " +nome+ " Esta no nível Radiante")
 }
 
+}
